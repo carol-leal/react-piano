@@ -11,9 +11,11 @@
     "@types/node": "^16.18.126",
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
+    "clsx": "^2.1.1",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-scripts": "5.0.1",
+    "soundfont-player": "^0.12.0",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
   },
@@ -40,5 +42,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "packageManager": "yarn@4.1.1+sha512.ec40d0639bb307441b945d9467139cbb88d14394baac760b52eca038b330d16542d66fef61574271534ace5a200518dabf3b53a85f1f9e4bfa37141b538a9590"
 }
