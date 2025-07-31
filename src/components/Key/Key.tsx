@@ -1,11 +1,10 @@
 import { FunctionComponent } from "react";
 import clsx from "clsx";
 import { NoteType } from "../../domain/note";
-import styles from "./Key.module.css";
 import { usePressObserver } from "../PressObserver";
+import styles from "./Key.module.css";
 
 type PressCallback = () => void;
-
 type KeyProps = {
   type: NoteType;
   label: string;
@@ -34,9 +33,9 @@ export const Key: FunctionComponent<KeyProps> = ({
         styles[type],
         pressed && styles["is-pressed"]
       )}
-      type="button"
       onMouseDown={onDown}
       onMouseUp={onUp}
+      type="button"
       {...rest}
     >
       {label}
